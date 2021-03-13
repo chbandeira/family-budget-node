@@ -1,6 +1,8 @@
 # FamilyBudgetNode
 
-It is a BackEnd project for Family Budget app.
+It is a Backend project for Family Budget app.
+
+Frontend https://github.com/chbandeira/family-budget-angular
 
 ## Development server
 
