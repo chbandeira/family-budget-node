@@ -12,6 +12,7 @@ mongoose
 
 const expenseRoutes = require("./routes/expense");
 const incomeRoutes = require("./routes/income");
+const importRoutes = require("./routes/import");
 
 const app = express();
 
@@ -29,6 +30,7 @@ app.use((req, res, next) => {
 
 app.use("/api/v1/expenses", expenseRoutes);
 app.use("/api/v1/incomes", incomeRoutes);
+app.use("/api/v1/import", importRoutes);
 
 app.get("/", (req, res) => {
   return res.json({
